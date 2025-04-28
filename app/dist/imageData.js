@@ -1,0 +1,62 @@
+
+const photos = [
+    {"id": 1, "url" : "https://media.craiyon.com/2025-04-01/3gWUbXFnRVK89x45SICROg.webp", "alt" : "image"},
+    {"id": 2, "url" : "https://media.craiyon.com/2025-04-01/YDS6e_C2SpeJM4OOipei0A.webp", "alt" : "image"},
+    {"id": 3, "url" : "https://media.craiyon.com/2025-04-01/HSiPgT-cQm-D5WrRFKYJ-w.webp", "alt" : "image"},
+    {"id": 4, "url" : "https://media.craiyon.com/2025-04-01/KSZicm3PSW-m4DcH8MIVqw.webp", "alt" : "image"},
+    {"id": 5, "url" : "https://media.craiyon.com/2025-04-03/cKKVB3sHSv2jltu6NhIF0Q.webp", "alt" : "image"},
+    {"id": 6, "url" : "https://media.craiyon.com/2025-04-01/MPbISHf5TyWSBGhbuSCukA.webp", "alt" : "image"},
+    {"id": 7, "url" : "https://media.craiyon.com/2025-04-01/E2rJOAFATXCwaUJm18dmOw.webp", "alt" : "image"},
+    {"id": 8, "url" : "https://media.craiyon.com/2025-04-01/3esF64JRRPSo-pCDB3ERBA.webp", "alt" : "image"},
+    {"id": 9, "url" : "https://media.craiyon.com/2025-04-03/n2bm2__TTjCF3G9Rs4luWw.webp", "alt" : "image"},
+    {"id": 10, "url" : "https://media.craiyon.com/2025-04-01/HoauaTzMSHi_ZzQDEX2mdg.webp", "alt" : "image"},
+    {"id": 11, "url" : "https://media.craiyon.com/2025-04-01/dfMN9L_AThG_Seh4re_pJg.webp", "alt" : "image"},
+    {"id": 12, "url" : "https://media.craiyon.com/2025-04-01/CxM3KrAiTfSV1h30JguLww.webp", "alt" : "image"},
+    {"id": 13, "url" : "https://media.craiyon.com/2025-04-01/9qZ8i7-MRFWwQqDZ3et1yQ.webp", "alt" : "image"},
+    {"id": 14, "url" : "https://media.craiyon.com/2025-04-01/Gh62u-uASxeWoHDzqxAH1A.webp", "alt" : "image"},
+    {"id": 15, "url" : "https://media.craiyon.com/2025-04-01/TO-GhxSxR16fBEKHp3rJoQ.webp", "alt" : "image"},
+    {"id": 16, "url" : "https://media.craiyon.com/2025-04-03/EK2H8zDzQ8KSd-obJ7n0Fg.webp", "alt" : "image"},
+    {"id": 20, "url" : "https://media.craiyon.com/2025-04-01/ugBIJu7HSYmEdc6dbUXiSQ.webp", "alt" : "image"},
+    {"id": 17, "url" : "https://media.craiyon.com/2025-04-01/bUJN_sNSS1O5cPVEEpxpow.webp", "alt" : "image"},
+    {"id": 18, "url" : "https://media.craiyon.com/2025-04-01/hnZvrq_6TiWhudmyduOZeQ.webp", "alt" : "image"},
+    {"id": 19, "url" : "https://media.craiyon.com/2025-04-01/pqP_izQnRPmhSa_z6XoO1w.webp", "alt" : "image"},
+]
+
+const photos2 = [
+   {"id": 18, "url" : "https://media.craiyon.com/2025-04-01/hnZvrq_6TiWhudmyduOZeQ.webp", "alt" : "image"},
+     {"id": 19, "url" : "https://media.craiyon.com/2025-04-01/pqP_izQnRPmhSa_z6XoO1w.webp", "alt" : "image"},
+    {"id": 2, "url" : "https://media.craiyon.com/2025-04-01/YDS6e_C2SpeJM4OOipei0A.webp", "alt" : "image"},
+    {"id": 3, "url" : "https://media.craiyon.com/2025-04-01/HSiPgT-cQm-D5WrRFKYJ-w.webp", "alt" : "image"},
+    {"id": 4, "url" : "https://media.craiyon.com/2025-04-01/KSZicm3PSW-m4DcH8MIVqw.webp", "alt" : "image"},
+    {"id": 5, "url" : "https://media.craiyon.com/2025-04-03/cKKVB3sHSv2jltu6NhIF0Q.webp", "alt" : "image"},
+    {"id": 6, "url" : "https://media.craiyon.com/2025-04-01/MPbISHf5TyWSBGhbuSCukA.webp", "alt" : "image"},
+    {"id": 7, "url" : "https://media.craiyon.com/2025-04-01/E2rJOAFATXCwaUJm18dmOw.webp", "alt" : "image"},
+    {"id": 8, "url" : "https://media.craiyon.com/2025-04-01/3esF64JRRPSo-pCDB3ERBA.webp", "alt" : "image"},
+    {"id": 9, "url" : "https://media.craiyon.com/2025-04-03/n2bm2__TTjCF3G9Rs4luWw.webp", "alt" : "image"},
+    {"id": 1, "url" : "https://media.craiyon.com/2025-04-01/3gWUbXFnRVK89x45SICROg.webp", "alt" : "image"},
+    {"id": 14, "url" : "https://media.craiyon.com/2025-04-01/Gh62u-uASxeWoHDzqxAH1A.webp", "alt" : "image"},
+    {"id": 15, "url" : "https://media.craiyon.com/2025-04-01/TO-GhxSxR16fBEKHp3rJoQ.webp", "alt" : "image"},
+    {"id": 16, "url" : "https://media.craiyon.com/2025-04-03/EK2H8zDzQ8KSd-obJ7n0Fg.webp", "alt" : "image"},
+    {"id": 17, "url" : "https://media.craiyon.com/2025-04-01/bUJN_sNSS1O5cPVEEpxpow.webp", "alt" : "image"},
+    {"id": 10, "url" : "https://media.craiyon.com/2025-04-01/HoauaTzMSHi_ZzQDEX2mdg.webp", "alt" : "image"},
+    {"id": 11, "url" : "https://media.craiyon.com/2025-04-01/dfMN9L_AThG_Seh4re_pJg.webp", "alt" : "image"},
+    {"id": 12, "url" : "https://media.craiyon.com/2025-04-01/CxM3KrAiTfSV1h30JguLww.webp", "alt" : "image"},
+    {"id": 13, "url" : "https://media.craiyon.com/2025-04-01/9qZ8i7-MRFWwQqDZ3et1yQ.webp", "alt" : "image"},
+  {"id": 20, "url" : "https://media.craiyon.com/2025-04-01/ugBIJu7HSYmEdc6dbUXiSQ.webp", "alt" : "image"},
+]
+
+
+const styleData = [
+  {"image": "https://www.craiyon.com/images/styles/pro-illustration.webp","caption": "Pro Illustration"},
+  {"image": "https://www.craiyon.com/images/styles/auto.webp","caption": "v4 Auto"},
+  {"image": "https://www.craiyon.com/images/styles/pro-vector.webp","caption": "Pro Vector"},
+  {"image": "https://www.craiyon.com/images/styles/pro-photo.webp","caption": "Pro Photo"},
+  {"image": "https://www.craiyon.com/images/styles/photo.webp","caption": "v4 Photo"},
+  {"image": "https://www.craiyon.com/images/styles/drawing.webp","caption": "v4 Drawing"},
+  {"image": "https://www.craiyon.com/images/styles/vector.webp","caption": "v4 Vector"},
+  {"image": "https://www.craiyon.com/images/styles/v3-art.webp","caption": "v3 Art"},
+  {"image": "https://www.craiyon.com/images/styles/v3-photo.webp","caption": "v3 Photo"},
+  {"image": "https://www.craiyon.com/images/styles/v3-drawing.webp","caption": "v3 Drawing"},
+  {"image": "https://www.craiyon.com/images/styles/v3-none.webp","caption": "v3 None"},
+]
+export {photos, photos2, styleData}
