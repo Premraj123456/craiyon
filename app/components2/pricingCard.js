@@ -21,8 +21,8 @@ export default function PricingCard({title, price, pricing_descriptions}){
             <button className="w-full bg-amber-700 h-11 rounded-lg my-2 font-bold">Get {title}</button>
             <div className="mt-4 space-y-2 mb-2">
 
-            {pricing_descriptions.map((desc) => {
-                return <p className="flex"> <span><Check size={25} className="text-gray-500 mr-2" /></span>{desc}</p>
+            {pricing_descriptions.map((desc,i) => {
+                return <p key={i} className="flex"> <span><Check size={25} className="text-gray-500 mr-2" /></span>{desc}</p>
             })}
 
             </div>
